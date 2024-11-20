@@ -44,7 +44,7 @@ def oi_final_grade(tugas, uts, uas):
 ````
 #### lihat_data()
 Fungsi ini menampilkan seluruh data siswa dalam format tabel. Jika data kosong, ditampilkan pesan "Tidak ada data!".
-python
+```python
 def lihat_data():
     if not data_list:
         print("\nTidak ada data!")
@@ -58,10 +58,10 @@ def lihat_data():
                   f"{student['Tugas']:<8.2f} | {student['UTS']:<8.2f} | {student['UAS']:<8.2f} | "
                   f"{student['Nilai Akhir']:<8.2f} |")
         print("=" * 70)
-
+````
 #### tambah_data()
 Fungsi ini meminta pengguna untuk memasukkan data siswa baru, seperti Nama, NIM, dan nilai-nilai (Tugas, UTS, UAS). Nilai akhir dihitung menggunakan oi_final_grade, kemudian data dimasukkan ke dalam data_list.
-python
+```python
 def tambah_data():
     Nama = input("Nama: ")
     NIM = input("NIM: ")
@@ -79,10 +79,10 @@ def tambah_data():
     }
     data_list.append(mahasiswa_data)
     print("\nData berhasil ditambahkan!")
-
+````
 #### ubah_data()
 Fungsi ini memungkinkan pengguna untuk memperbarui data siswa berdasarkan nomor urut. Setelah memilih nomor data, pengguna dapat memasukkan data baru. Nilai akhir diperbarui secara otomatis.
-python
+```python
 def ubah_data():
     lihat_data()
     index = int(input("\nPilih nomor data yang ingin diubah: ")) - 1
@@ -179,10 +179,11 @@ Daftar Nilai
 ======================================================================
 | NO | NIM      | NAMA       | TUGAS   | UTS     | UAS     | AKHIR   |
 ======================================================================
-| 1  | 1234     | ZAKI       | 80.00    | 75.00    | 90.00    | 81.75    |
-| 2  | 5678     | TONO       | 80.00    | 75.00    | 80.00    | 78.25    |
-| 3  | 9101     | BUDI       | 90.00    | 75.00    | 90.00    | 84.75    |
+| 1  | 312410363   | MUHAMMMAD GILANG ALFARIZI     | 90.00    | 80.00    | 80.00    | 83.33    |
+| 2  | 312410364   | AGUNG      | 90.00    | 80.00    | 80.00    | 83.33    |
+| 3  | 312410365   | FIRA       | 70.00    | 90.00    | 90.00    | 83.33    |
 ======================================================================
 
 ## screenshout output VSC
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/87fdfe55-bcaa-4147-ac30-08aae8f864d4">
+![Screenshot 2024-11-20 095500](https://github.com/user-attachments/assets/d7479432-052b-41bb-962c-9f7a4fcb19e9)
+
