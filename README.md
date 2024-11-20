@@ -170,7 +170,6 @@ while True:
 ![code](https://github.com/user-attachments/assets/1d59a3ee-0e69-4dc2-a070-c4effd3af0fe)
 
 
-
 ## Contoh output
 Berikut adalah contoh tampilan tabel data:
 
@@ -186,4 +185,7 @@ Daftar Nilai
 
 ## screenshout output VSC
 ![Screenshot 2024-11-20 095500](https://github.com/user-attachments/assets/d7479432-052b-41bb-962c-9f7a4fcb19e9)
+
+## Dan flowchart
+![gilang](https://github.com/user-attachments/assets/c81038cd-e8c5-4852-9302-d50478337846)
 
